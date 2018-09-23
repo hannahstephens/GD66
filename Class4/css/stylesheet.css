@@ -1,0 +1,38 @@
+/* Adding all things for fonts and text */
+@import url(typography.css);
+/* Adding all things for page layout*/
+@import url(layout.css);
+
+main {
+    width: 960px;
+    margin: 0px auto;
+}
+.container {
+    width: 960px;
+	background-color: aqua;
+}
+.fullcard {
+    width: 30%;
+	float:left;
+}
+ .fullcard:first-child {
+    float: left;
+}
+ .fullcard:last-child{
+    float: right;
+}
+ .fullcard img {
+    width: 100%;
+	 float:left;
+}
+ .textcolumn {
+    height: 300px;
+	width: 200px;
+	overflow: scroll;
+}
+.headline {
+	float:left;
+}
+ .clearfix {
+    clear: both;
+}

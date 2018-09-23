@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  background-color: papayawhip;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+main {
+  margin-top: 60px;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: thistle;
+}
+
+.relative-position {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  left: 10px;
+  top: 10px;
+}
+
+.absolute-position {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  top: 10px;
+  left: 10px;
+}
+.relative-position2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+  left: 95px;
+  top: -110px;
+}
+
+.absolute-position2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  top: 450px;
+  left: 65px;
+}
