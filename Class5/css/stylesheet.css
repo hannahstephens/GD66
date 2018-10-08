@@ -1,0 +1,20 @@
+/* Adding all things for fonts and text */
+@import url(typography.css);
+/* Adding all things for page layout*/
+@import url(layout.css);
+
+main {
+    width: 960px;
+    margin: 0px auto;
+	column-count: 2;
+}
+
+/* tablet and small desktop styles */
+@media (min-width: 768px)
+
+{
+p {
+	column-count: 4;
+	}
+
+}
