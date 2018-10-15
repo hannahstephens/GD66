@@ -1,0 +1,98 @@
+
+/*global styles*/
+
+h1 
+{
+font-family: 'Roboto', sans-serif; font-size:24px; text-transform: uppercase; border-bottom: 0px solid #2A1959; text-align: center;
+}
+
+h2 {font-family: 'Roboto', sans-serif; font-size:14px; text-transform: uppercase; border-bottom: 0px solid #2A1959;}
+
+h3 {font-family: 'Roboto', sans-serif; font-size:14px; border-bottom: 0px solid #2A1959;}
+
+p {font-family: 'Open Sans', sans-serif; font-size:12px; border-bottom: 0px solid #2A1959;}
+
+body {margin-left:0; font-family: 'Open Sans', sans-serif; font-size:12px; text-align: justify;}
+
+ul {margin-left:auto; margin-right:auto;padding-left:0; list-style-type:none;}
+
+li {display:inline-block; text-align:center;margin:auto;}
+li a {padding:10px;display:inline-block; text-align:center;border-bottom:thin solid #606060;margin:auto;}
+li:last-child {border-bottom:0;}
+
+a:link {color:#000000;text-decoration:none;}
+a:visited {color:#000000;text-decoration:none;}
+a:hover {background-color: #FFFFFF;color:#A0A0A0;text-decoration:none;}
+a:active {color:#000000;text-decoration:underline;}
+
+nav {
+  background-color: lightgray;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 10px auto;
+	margin-top: 80px;
+
+}
+img:hover {
+    opacity: 0.5;
+}
+.headline {
+	float:left;
+}
+ .clearfix {
+    clear: both;
+}
+.row-images {
+	width: 960px;
+	height:500px;
+	margin-bottom:10px;
+	overflow:hidden;
+	background-color:white;
+}
+.portfolio-image-one{
+	float: left;
+	width: 400px;
+	height: 400px;
+	}
+.portfolio-desc {
+	width:90%;
+	padding-left:5%;
+}
+.portfolio-image-two{
+	width:400px;
+	height: 400px;
+	float: left;
+}
+.about-image{
+	background-image: url(../images/Stephens-Hannah_04a.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:100%;
+	width:100%;
+	margin:auto;
+}
+.container {
+	margin:auto;
+	width:100%;
+}
+/* tablet and small desktop styles */
+@media (min-width: 768px)
+{
+	p {
+		column-count: 3
+	}
+}
+
+/* tablet and large desktop styles */
+@media (min-width: 1024px)
+{
+	p {
+		column-count: 4
+	}
+}
